@@ -77,7 +77,7 @@ const Index = props => {
                 and an English psychiatrist with training from the American Psychological Association, Division 52 International Psychology, 
                 and also has more Japanese Training Certificates.
               </p>
-                <h3 class="cm2">Mission and Vision of BeyondBleu Japan: </h3>
+                <h3 class="cm">Mission and Vision of BeyondBleu Japan: </h3>
                 <p class="text-xl cm text-justify">
                 <b>Our mission:</b> BeyondBleu offers international-standard psychotherapy and mental health expertise in native English,
                 tailored to the needs of the Japanese returnee community and the international community in the Tokyo region, Chuo-ku, and throughout Japan via telehealth.
