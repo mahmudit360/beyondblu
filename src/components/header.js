@@ -25,6 +25,7 @@ const Nav = () => {
         <Link to="/relationship-counseling">{t("Relationships")}</Link>
         <Link to="/booking">{t("Booking")}</Link>
         <Link to="/access">{t("Access")}</Link>
+        <Link to="/blog">{t("blog")}</Link>
       </nav>
     </>
   )
