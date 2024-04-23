@@ -90,8 +90,8 @@ const Index = props => {
                     Let's examine the core values of BeyondBleu Japan and its dedication to changing lives.
                     Whenever you search for the Best English-speaking therapist in Tokyo or “therapist near me” you can reach them easily.  
                     </p>
-                    <h3 class="text-center">Best Therapy in Tokyo, Japan Our Services Offered </h3>
-                    <h4 class="text-center">Approaches and Peacemaking </h4>
+                    <h4 class="text-center">Best Therapy in Tokyo, Japan Our Services Offered </h4>
+                    <h5 class="text-center">Approaches and Peacemaking </h5>
                     <ol>
                     <li>1.Cognitive Behavioral Therapeutic approach (CBT)</li>
                     <li>2.Acceptance and Commitment Therapy (ACT)</li>
