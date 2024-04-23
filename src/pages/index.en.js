@@ -70,9 +70,26 @@ const Index = props => {
             </div>
           <div class="md:container py-10">
             <div class="max-w-3xl mx-auto">
-              <h2 class="mb-2 text-center">Why Choose BeyondBleu?</h2>
-              <p class="text-xl mb-0 text-justify">All psychotherapies are provided by one of our globally trained therapists Tumee Bayanbileg. M.A. in both native English and Japanese Languages. BeyondBleu therapist is multidisciplinary and consists of clinical psychologists, family and couples therapists, counselors, and an English psychiatrist with training from the American Psychological Association, Division 52 International Psychology, and also has more Japanese Training Certificates.  
-</p>
+              <h2 class="my-2 text-center">Why Choose BeyondBleu?</h2>
+              <p class="text-xl mb-0 text-justify">
+                All psychotherapies are provided by one of our globally trained therapists Tumee Bayanbileg. M.A. in both native English and Japanese Languages.
+                BeyondBleu therapist is multidisciplinary and consists of clinical psychologists, family and couples therapists, counselors, 
+                and an English psychiatrist with training from the American Psychological Association, Division 52 International Psychology, 
+                and also has more Japanese Training Certificates.
+              </p>
+                <h3 class="my-2 text-center">Mission and Vision of BeyondBleu Japan: </h3>
+                <p>
+                <span class="text-bold">Our mission:</span> BeyondBleu offers international-standard psychotherapy and mental health expertise in native English,
+                tailored to the needs of the Japanese returnee community and the international community in the Tokyo region, Chuo-ku, and throughout Japan via telehealth.
+                </p>
+                <p>
+                <span class="text-bold">Our Vision:</span> A beacon of hope for individuals seeking emotional recovery, BeyondBleu Japan is located in the center of Tokyo, where neon lights mix with old traditions.
+                  Their goal as psychotherapy-focused sessions goes beyond simple therapy sessions. 
+                </p>
+                    <p>
+                    Let's examine the core values of BeyondBleu Japan and its dedication to changing lives.
+                    Whenever you search for the Best English-speaking therapist in Tokyo or “therapist near me” you can reach them easily.  
+                    </p>
             </div>
         </div>
               <div className="md:container py-10">
