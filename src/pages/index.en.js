@@ -93,17 +93,42 @@ const Index = props => {
                     <h3 class="text-center">Best Therapy in Tokyo, Japan Our Services Offered </h3>
                     <h4 class="text-center">Approaches and Peacemaking </h4>
                     <ol>
-                    <li>Cognitive Behavioral Therapeutic approach (CBT)</li>
-                    <li>Acceptance and Commitment Therapy (ACT)</li>
-                    <li>Intensive Short-Term Dynamic Psychotherapy (ISTDP) </li>
-                    <li>Dialectical Behavior Therapy (DBT)</li>
-                    <li>Emotionally Focused Therapy (EFT)</li>
-                    <li>Narrative Therapy</li>
-                    <li>Systems-focused Psychotherapies</li>
-                    <li>Person-centered Therapy</li>
-                    <li>Mindfulness-based Therapies</li>
-                    <li>Play Therapy</li>
+                    <li>1.Cognitive Behavioral Therapeutic approach (CBT)</li>
+                    <li>2.Acceptance and Commitment Therapy (ACT)</li>
+                    <li>3.Intensive Short-Term Dynamic Psychotherapy (ISTDP) </li>
+                    <li>4.Dialectical Behavior Therapy (DBT)</li>
+                    <li>5.Emotionally Focused Therapy (EFT)</li>
+                    <li>6.Narrative Therapy</li>
+                    <li>7.Systems-focused Psychotherapies</li>
+                    <li>8.Person-centered Therapy</li>
+                    <li>9.Mindfulness-based Therapies</li>
+                    <li>10.Play Therapy</li>
                     </ol>
+                    <p class="text-xl cm text-justify">
+                   Cognitive Behavioral Therapeutic approach (CBT) 
+                    Anxiety and depression are among the many mental and emotional health conditions for which cognitive behavior therapy (CBT) is a successful treatment method. 
+                    </p>
+                    <p class="text-xl cm text-justify">
+                  With cognitive behavioral therapy (CBT), you can acquire useful self-help techniques and recognize and fight harmful beliefs.
+                  Your quality of life will improve immediately with the help of these tactics. 
+                 Whenever you choose a Psychiatrist from Tokyo you realize you choose BeyondBleu to get a perfect solution about your mental health.   
+                  </p>
+                  <p class="text-xl cm text-justify">
+                  Acceptance and Commitment Therapy (ACT) <br>
+                  A form of psychotherapy known as acceptance and commitment therapy (ACT) places a strong emphasis on accepting oneself in order to deal with unfavorable thoughts,
+                  feelings, symptoms, or situations. <br>
+                  ACT therapy promotes a stronger commitment to positive, healthful activities that support your objectives or core values.
+                      <br>
+                  Intensive Short-Term Dynamic Psychotherapy (ISTDP)<br>
+                  A special kind of psychodynamic therapy called Intensive Short-Term Dynamic Psychotherapy (ISTDP) helps a wide range of emotional illnesses to resolve quickly.
+                  Current clinical research studies provide good support for this evidence-based psychotherapy.<br>
+                      ISTDP therapies are specifically created to address a range of self-defeating behaviors, many of which stem from unstable or problematic early life attachments, 
+                      as well as anxiety, depression, somatization, and personality disorders.
+                      <br>
+                      Dialectical Behavior Therapy (DBT)
+
+
+                  </p>
             </div>
         </div>
               <div className="md:container py-10">
