@@ -93,16 +93,16 @@ const Index = props => {
                     <h3 class="text-center">Best Therapy in Tokyo, Japan Our Services Offered </h3>
                     <h4 class="text-center">Approaches and Peacemaking </h4>
                     <ol>
-                    <li>1.Cognitive Behavioral Therapeutic approach (CBT)</li>
-                    <li>2.Acceptance and Commitment Therapy (ACT)</li>
-                    <li>3.Intensive Short-Term Dynamic Psychotherapy (ISTDP) </li>
-                    <li>4.Dialectical Behavior Therapy (DBT)</li>
-                    <li>5.Emotionally Focused Therapy (EFT)</li>
-                    <li>6.Narrative Therapy</li>
-                    <li>7.Systems-focused Psychotherapies</li>
-                    <li>8.Person-centered Therapy</li>
-                    <li>9.Mindfulness-based Therapies</li>
-                    <li>10.Play Therapy</li>
+                    <li>Cognitive Behavioral Therapeutic approach (CBT)</li>
+                    <li>Acceptance and Commitment Therapy (ACT)</li>
+                    <li>Intensive Short-Term Dynamic Psychotherapy (ISTDP) </li>
+                    <li>Dialectical Behavior Therapy (DBT)</li>
+                    <li>Emotionally Focused Therapy (EFT)</li>
+                    <li>Narrative Therapy</li>
+                    <li>Systems-focused Psychotherapies</li>
+                    <li>Person-centered Therapy</li>
+                    <li>Mindfulness-based Therapies</li>
+                    <li>Play Therapy</li>
                     </ol>
                     <p class="text-xl cm text-justify">
                    Cognitive Behavioral Therapeutic approach (CBT) 
