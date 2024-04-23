@@ -1,0 +1,298 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~flag-icon-css/css/flag-icon.css";
+
+/* purgecss start ignore */
+
+html {
+  font-size: 16px;
+}
+
+[lang="en"], .font-en {
+  font-family: 'Lato', sans-serif;
+}
+
+[lang="ja"], .font-ja {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+@screen md {
+  html {
+    font-size: 18px;
+  }
+}
+
+@screen lg {
+  html {
+    font-size: 20px;
+  }
+}
+
+body {
+  @apply text-gray-800;
+  background: #EAEBED;
+  padding-top: 7.5rem;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-5 relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply leading-none font-bold;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, table {
+  @apply mb-6;
+}
+
+h1 {
+  @apply text-5xl;
+}
+
+h2 {
+  @apply text-4xl;
+}
+
+h3 {
+  @apply text-3xl;
+}
+
+h4 {
+  @apply text-2xl;
+}
+
+h5 {
+  @apply text-xl;
+}
+
+h6 {
+  @apply text-lg;
+}
+
+[lang="ja"] h1 {
+  @apply text-4xl;
+}
+
+[lang="ja"] h2 {
+  @apply text-3xl;
+}
+
+[lang="ja"] h3 {
+  @apply text-2xl;
+}
+
+[lang="ja"] h4 {
+  @apply text-xl;
+}
+
+[lang="ja"] h5 {
+  @apply text-lg;
+}
+
+[lang="ja"] h6 {
+  @apply text-lg;
+}
+
+.home-header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+@screen lg {
+  .home-header {
+    background-position: right bottom !important;
+  }
+}
+
+.b-line {
+  @apply inline-block;
+}
+
+.b-line:after {
+  @apply bg-primary;
+  content: '';
+  display: block;
+  width: 25%;
+  height: 4px;
+  border-radius: 4px;
+  margin-top: 7px;
+}
+.line-height {
+    line-height: 3.7rem;
+}
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-image-home {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Nav */
+
+.nav-menu a {
+  @apply uppercase no-underline whitespace-no-wrap;
+}
+
+/* Mobile Nav */
+@media (max-width: 1240px) {
+  .nav-menu {
+    @apply shadow-xl;
+    background: rgba(255,255,255,0.95);
+    position: fixed;
+    top: 7.5rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 150ms ease-in;
+  }
+
+  .nav-menu a {
+    @apply p-5 text-lg border-b;
+  }
+
+  .nav-menu--open {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .nav-menu-btn {
+    visibility: visible;
+  }
+}
+
+/* Desktop Nav */
+@media (min-width: 1241px) {
+  .nav-menu {
+    display: flex;
+  }
+
+  .nav-menu a {
+    @apply p-4;
+  }
+
+  .dropdown-menu {
+    position: relative;
+  }
+
+  .dropdown-menu .dropdown-menu-sub-menu {
+    @apply bg-white shadow-lg;
+    position: absolute;
+    top: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 150ms ease-in;
+  }
+
+  .dropdown-menu:hover .dropdown-menu-sub-menu {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .nav-menu-btn {
+    visibility: hidden;
+  }
+}
+
+/* Forms */
+
+label {
+  @apply font-bold uppercase mb-1;
+}
+
+label, input {
+  @apply block;
+}
+
+input, textarea, select {
+  @apply w-full p-3 rounded;
+}
+
+.form-group {
+  @apply mb-3;
+}
+
+/* Buttons */
+
+.btn {
+  @apply rounded-full px-6 py-3 inline-block no-underline;
+}
+
+.btn:hover {
+  @apply bg-gray-700 text-white;
+}
+
+.btn .fa {
+  vertical-align: middle;
+}
+
+.btn-gray {
+  @apply bg-gray-900 text-white
+}
+
+.btn-orange {
+  @apply bg-primary text-white
+}
+
+.bg-white-to-gray {
+  background: linear-gradient(#fff 50%, rgba(238,238,238,0.7) 100%)
+}
+
+.bg-overlay {
+  position: relative;
+}
+
+.bg-overlay:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(-90deg, rgba(0,0,0,0), rgba(0,0,0,0.2));
+}
+
+[aria-current="page"] {
+  @apply font-bold;
+}
+
+a {
+  @apply underline;
+  color: inherit;
+}
+
+.alert {
+  @apply py-3 px-4 rounded mb-6;
+}
+
+.alert-success {
+  @apply bg-green-200 border border-green-300 text-green-700;
+}
+
+@screen lg {
+  .bg-image-plant {
+    background-image: url("../images/plant-3-right.jpg");
+    background-position: 60% center;
+    background-attachment: fixed;
+  }
+    .bg-image-home {
+      background-image: url("../images//home-bg.webp");
+    background-attachment: fixed;
+  }
+}
+.about-img {
+    position: fixed;
+    right: 30px;
+}
+
+/* purgecss end ignore */
