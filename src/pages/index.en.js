@@ -77,16 +77,16 @@ const Index = props => {
                 and an English psychiatrist with training from the American Psychological Association, Division 52 International Psychology, 
                 and also has more Japanese Training Certificates.
               </p>
-                <h3 class="my-2 text-center">Mission and Vision of BeyondBleu Japan: </h3>
-                <p class="text-xl mb-0 text-justify">
+                <h3 class="cm2">Mission and Vision of BeyondBleu Japan: </h3>
+                <p class="text-xl cm text-justify">
                 <b>Our mission:</b> BeyondBleu offers international-standard psychotherapy and mental health expertise in native English,
                 tailored to the needs of the Japanese returnee community and the international community in the Tokyo region, Chuo-ku, and throughout Japan via telehealth.
                 </p>
-                <p class="text-xl mb-0 text-justify">
+                <p class="text-xl cm text-justify">
                 <b>Our Vision:</b> A beacon of hope for individuals seeking emotional recovery, BeyondBleu Japan is located in the center of Tokyo, where neon lights mix with old traditions.
                   Their goal as psychotherapy-focused sessions goes beyond simple therapy sessions. 
                 </p>
-                   <p class="text-xl mb-0 text-justify">
+                   <p class="text-xl cm text-justify">
                     Let's examine the core values of BeyondBleu Japan and its dedication to changing lives.
                     Whenever you search for the Best English-speaking therapist in Tokyo or “therapist near me” you can reach them easily.  
                     </p>
