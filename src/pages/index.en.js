@@ -70,8 +70,8 @@ const Index = props => {
             </div>
           <div class="md:container py-10">
             <div class="max-w-3xl mx-auto">
-              <h2 class="text-xl mb-0 text-justify">Why Choose BeyondBleu?</h2>
-              <p class="text-xl mb-0 text-justify">All psychotherapies are provided by one of our globally trained therapist Tumee Bayanbileg. M.A in both native English and Japanese Languages. BeyondBleu therapist is multidisciplinary and consists of clinical psychologists, family and couples therapists, counselors, and an English psychiatrist with training from the American Psychological Association, Division 52 International Psychology and also have more Japanese Training Certificates. 
+              <h2 class="mb-2 text-center">Why Choose BeyondBleu?</h2>
+              <p class="text-xl mb-0 text-justify">All psychotherapies are provided by one of our globally trained therapists Tumee Bayanbileg. M.A. in both native English and Japanese Languages. BeyondBleu therapist is multidisciplinary and consists of clinical psychologists, family and couples therapists, counselors, and an English psychiatrist with training from the American Psychological Association, Division 52 International Psychology, and also has more Japanese Training Certificates.  
 </p>
             </div>
         </div>
