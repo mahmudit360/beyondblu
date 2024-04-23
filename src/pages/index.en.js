@@ -119,8 +119,8 @@ const Index = props => {
                   feelings, symptoms, or situations. 
                   ACT therapy promotes a stronger commitment to positive, healthful activities that support your objectives or core values.
                   </p>
-                  <p class="text-xl cm text-justify">
-                  Intensive Short-Term Dynamic Psychotherapy (ISTDP)</p>
+                  <h5 class="cm">
+                  Intensive Short-Term Dynamic Psychotherapy (ISTDP)</h5>
                   <p class="text-xl cm text-justify">
                   A special kind of psychodynamic therapy called Intensive Short-Term Dynamic Psychotherapy (ISTDP) helps a wide range of emotional illnesses to resolve quickly.
                   Current clinical research studies provide good support for this evidence-based psychotherapy.
