@@ -14,10 +14,10 @@ module.exports = {
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `blog`,
-        path: `${__dirname}/content/blog`,
-      },
+     options: {
+    name: `blog`,
+    path: `${__dirname}/sample-content/blog`, // Updated path to where your Markdown files are
+  },
     },
     {
       resolve: `gatsby-transformer-remark`,
