@@ -53,14 +53,14 @@ exports.createPages = async ({ graphql, actions }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
 
-  if (
-    node.internal.type === `MarkdownRemark` &&
-    node.internal.fieldOwners.slug !== "gatsby-plugin-i18n"
-  ) {
+  // Ensure we are processing only markdown files
+  if (node.internal.type === `MarkdownRemark`) {
+    // Use `createFilePath` to turn markdown files in our `src/pages` into `/slug/`
     const value = createFilePath({ node, getNode });
+    // Create a new field in the node being processed
     createNodeField({
-      name: `slug`,
       node,
+      name: 'slug',
       value,
     });
   }
