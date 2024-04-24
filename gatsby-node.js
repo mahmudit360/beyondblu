@@ -11,7 +11,6 @@ exports.createPages = async ({ graphql, actions }) => {
           node {
             fields {
               slug
-              langKey
             }
             frontmatter {
               title
@@ -36,7 +35,6 @@ exports.createPages = async ({ graphql, actions }) => {
       component: blogPostTemplate,
       context: {
         slug: post.node.fields.slug,
-        langKey: post.node.fields.langKey,
         previous,
         next,
       },
@@ -53,15 +51,12 @@ exports.createPages = async ({ graphql, actions }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
 
-  // Ensure we are processing only markdown files
   if (node.internal.type === `MarkdownRemark`) {
-    // Use `createFilePath` to turn markdown files in our `src/pages` into `/slug/`
-    const value = createFilePath({ node, getNode });
-    // Create a new field in the node being processed
+    const slug = createFilePath({ node, getNode });
     createNodeField({
       node,
       name: 'slug',
-      value,
+      value: slug,
     });
   }
 };
