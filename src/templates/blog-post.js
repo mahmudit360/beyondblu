@@ -1,4 +1,4 @@
-NOTE: Commented out as not currently using a blog
+// NOTE: Commented out as not currently using a blog
 import React from "react"
 import { graphql } from "gatsby"
 import Link from "../components/app_link"
@@ -21,6 +21,9 @@ const BlogPostTemplate = props => {
         <div className="container">
           <div className="max-w-3xl mx-auto">
             <article itemScope itemType="http://schema.org/Article">
+              <div className="mb-3">
+                <Link to="/blogs" className="btn btn-orange py-2">All Blogs</Link>
+              </div>
               <header>
                 <div className="mb-6">
                   <Img
@@ -38,7 +41,7 @@ const BlogPostTemplate = props => {
                 itemProp="articleBody"
               />
             </article>
-
+            
             {/* <nav>
               <ul
                 style={{
